@@ -29,5 +29,5 @@ En lançant le script, une fenêtre Tkinter s'ouvrira et vous pourrez choisir en
 
 ## Remerciements
 
-Merci à [M. L. FILLATRE]
+Merci à [Mr. L. FILLATRE]
 notre encadrant de projet, pour son aide et ses conseils tout au long de ce projet.
