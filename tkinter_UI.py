@@ -161,12 +161,10 @@ class Game2048GUI_3x3(tk.Frame):
         self.win_rank_menu['values'] = ("16", "32", "64", "128", "256", "512")
         self.win_rank_menu.grid(row=1, column=1, sticky="ew", padx=10)
         self.win_rank_menu.bind("<<ComboboxSelected>>", self.update_win_rank)
-        # Prevent arrow keys from opening the dropdown
         self.win_rank_menu.bind("<Down>", lambda e: "break")
         self.win_rank_menu.bind("<Up>", lambda e: "break")
         self.win_rank_menu.bind("<Left>", lambda e: "break")
         self.win_rank_menu.bind("<Right>", lambda e: "break")
-        # Return focus to canvas after selection
         self.win_rank_menu.bind("<<ComboboxSelected>>", lambda e: (self.update_win_rank(e), self.canvas.focus_set()))
 
         self.controls_buttons_frame = tk.Frame(self.controls_frame, bg=BACKGROUND_COLOR)
