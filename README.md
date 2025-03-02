@@ -23,11 +23,11 @@ En lançant le script, une fenêtre Tkinter s'ouvrira et vous pourrez choisir en
 
 ## Auteurs
 
-- [Nathan EDERY](
-- [Aubin COURTIAL](
-- [Alexis BLOND](
+- [Nathan EDERY]
+- [Aubin COURTIAL]
+- [Alexis BLOND]
 
 ## Remerciements
 
-Merci à [M. L. FILLATRE](
-    notre encadrant de projet, pour son aide et ses conseils tout au long de ce projet.
+Merci à [M. L. FILLATRE]
+notre encadrant de projet, pour son aide et ses conseils tout au long de ce projet.
